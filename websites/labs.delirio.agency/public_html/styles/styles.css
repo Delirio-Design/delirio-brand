@@ -1,0 +1,54 @@
+/* GLOBAL STYLES */
+body{
+    margin:0px;
+}
+
+p  {
+    color:#efefef;
+}
+
+    a {
+    color:"inherit";
+    }
+
+
+/*LOCAL GLOBAL STYLES*/
+
+    .s-container {
+
+    }
+
+    .container {
+        display:flex;
+    }
+
+    .contentbox {
+        display:inherit;
+        width:100%;
+    }
+
+    .itembox {
+        display:block;
+    }
+
+    .hCenter {
+        justify-content: center; /* horizontal */
+        align-items: center;     /* vertical */
+}
+
+    .flexColumn {
+        flex-direction: column;
+    }
+
+/* TARGET STYLES */
+
+#s-01 {
+    background-color: #1c1c1c;
+        height: 100%;
+        min-height:100vh;
+}
+
+    #logo {
+        max-width:600px;
+        width:66%;
+    }
